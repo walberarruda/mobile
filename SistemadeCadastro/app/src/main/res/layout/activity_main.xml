@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/layouttopo_tp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fdb46d"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icone_programa"
+            android:contentDescription="@string/todo" />
+
+        <LinearLayout
+            android:id="@+id/layout_titulo_programa_tp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/sistema_de"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cadastro"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/bem_vindo_ao_sistema_de_cadastro_esse_um_pequeno_software_de_cadastro_de_usu_rios_escolha_uma_das_op_es_abaixo"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btcadastrar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_usu_rio" />
+
+    <Button
+        android:id="@+id/bt_listar_usuarios_cadastrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listar_usu_rios_cadastrados" />
+</LinearLayout>

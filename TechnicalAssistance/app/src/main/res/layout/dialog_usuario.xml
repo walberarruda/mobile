@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/editDialogNome" android:hint="Nome" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editDialogUsuario" android:hint="Usuário" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editDialogSenha" android:hint="Senha" android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Spinner android:id="@+id/spinnerDialogTipo" android:layout_width="match_parent" android:layout_height="wrap_content" android:entries="@array/tipo_usuario"/>
+</LinearLayout>
